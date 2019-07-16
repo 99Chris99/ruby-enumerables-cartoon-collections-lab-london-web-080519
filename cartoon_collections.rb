@@ -5,7 +5,7 @@ dwarfs.each_with_index do |item, index|
 
  index =+ 1
 puts "#{index} #{item}"
-#return dwarfs
+
 
 end
 
