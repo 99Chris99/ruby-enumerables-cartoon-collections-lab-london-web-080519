@@ -21,7 +21,7 @@ end
 
 def find_the_cheese(array)# code an argument here
   # the array below is here to help
-  
+
   array.detect{|e| e == "cheddar" or e =="gouda" or e == "camembert"}
 
 
