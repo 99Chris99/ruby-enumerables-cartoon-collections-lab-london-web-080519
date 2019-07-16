@@ -3,7 +3,7 @@ def roll_call_dwarves(dwarfs)# code an argument here
 #  dwarfs.sort!
 dwarfs.each_with_index
 
-do |item, index| 
+do |item, index|
 
 index =+1
 puts "#{index} #{item}"
