@@ -1,4 +1,6 @@
 def roll_call_dwarves(dwarfs)# code an argument here
+
+  dwarfs.sort!
 dwarfs.each_with_index{|item, index| puts "#{index}: #{item}"}
 return dwarfs
 
